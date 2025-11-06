@@ -63,18 +63,8 @@ document.addEventListener('DOMContentLoaded', function() {
             description: "Psychosis - Hard Demon от Hinds.",
             videoId: "DKRI2lK1oYE?si=VffrePBJ8vVwrDfP"
         },
+ 
         5: {
-            name: "Future Funk",
-            creator: "JonathanGD",
-            difficulty: "hard",
-            levelId: "44062068",
-            scores: 21.5,
-            beted: "EndermitGD",
-            position: 5,
-            description: "Future Funk - популярный Hard Demon от JonathanGD.",
-            videoId: "LUORMA2NvmM?si=n8PaYBtUvzAgXEYp"
-        },
-        6: {
             name: "Sakupen Egg",
             creator: "Неизвестно",
             difficulty: "medium",
@@ -85,7 +75,7 @@ document.addEventListener('DOMContentLoaded', function() {
             description: "Sakupen Egg - Medium Demon.",
             videoId: "M61Vqi6ryj8?si=1YUO-NdIGPQqjYqx"
         },
-        7: {
+        6: {
             name: "Xstep v2",
             creator: "Неизвестно",
             difficulty: "easy",
@@ -96,7 +86,7 @@ document.addEventListener('DOMContentLoaded', function() {
             description: "Xstep v2 - Easy Demon.",
             videoId: "K9rBb0HVvMg?si=AjkTXcmpHlX6A1VI"
         },
-        8: {
+        7: {
             name: "Speed Racer",
             creator: "Неизвестно",
             difficulty: "easy",
@@ -107,7 +97,7 @@ document.addEventListener('DOMContentLoaded', function() {
             description: "Speed Racer - Easy Demon",
             videoId: "R8RsJVKKd8w?si=6cJut7OvEJIOhatc"
         },
-        9: {
+        8: {
             name: "Problematic",
             creator: "Неизвестно",
             difficulty: "easy",
@@ -118,7 +108,7 @@ document.addEventListener('DOMContentLoaded', function() {
             description: "Problematic - классический Easy Demon.",
             videoId: "N18tn6vfyGg?si=G7sZIfI0S-79vkx4"
         },
-        10: {
+        9: {
             name: "IS",
             creator: "Неизвестно",
             difficulty: "easy",
@@ -129,7 +119,7 @@ document.addEventListener('DOMContentLoaded', function() {
             description: "IS - простой Easy Demon.",
             videoId: "yn5I1UdZF4c?si=nfXSNTSkEQnlAWJI"
         },
-        11: {
+        10: {
             name: "The Nightmare",
             creator: "Неизвестно",
             difficulty: "easy",

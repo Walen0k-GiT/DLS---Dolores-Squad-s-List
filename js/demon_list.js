@@ -56,18 +56,6 @@ document.addEventListener('DOMContentLoaded', function() {
         },
         { 
             id: 5, 
-            name: "Future Funk", 
-            creator: "JonathanGD", 
-            difficulty: "hard", 
-            levelId: "44062068",
-            scores: 21.5,
-            beted: "EndermitGD",
-            position: 5,
-            description: "Future Funk - популярный Hard Demon от JonathanGD.",
-            videoId: "LUORMA2NvmM?si=n8PaYBtUvzAgXEYp"
-        },
-        { 
-            id: 6, 
             name: "Sakupen Egg", 
             creator: "Неизвестно", 
             difficulty: "medium", 
@@ -79,7 +67,7 @@ document.addEventListener('DOMContentLoaded', function() {
             videoId: "M61Vqi6ryj8?si=1YUO-NdIGPQqjYqx"
         },
         { 
-            id: 7, 
+            id: 6, 
             name: "Xstep v2", 
             creator: "Неизвестно", 
             difficulty: "easy", 
@@ -91,7 +79,7 @@ document.addEventListener('DOMContentLoaded', function() {
             videoId: "K9rBb0HVvMg?si=AjkTXcmpHlX6A1VI"
         },
         { 
-            id: 8, 
+            id: 7, 
             name: "Speed Racer", 
             creator: "Неизвестно", 
             difficulty: "easy", 
@@ -103,7 +91,7 @@ document.addEventListener('DOMContentLoaded', function() {
             videoId: "R8RsJVKKd8w?si=6cJut7OvEJIOhatc"
         },
         { 
-            id: 9, 
+            id: 8, 
             name: "Problematic", 
             creator: "Неизвестно", 
             difficulty: "easy", 
@@ -115,7 +103,7 @@ document.addEventListener('DOMContentLoaded', function() {
             videoId: "N18tn6vfyGg?si=G7sZIfI0S-79vkx4"
         },
         { 
-            id: 10, 
+            id: 9, 
             name: "IS", 
             creator: "Неизвестно", 
             difficulty: "easy", 
@@ -127,7 +115,7 @@ document.addEventListener('DOMContentLoaded', function() {
             videoId: "yn5I1UdZF4c?si=nfXSNTSkEQnlAWJI"
         },
         { 
-            id: 11, 
+            id: 10, 
             name: "The Nightmare", 
             creator: "Неизвестно", 
             difficulty: "easy", 

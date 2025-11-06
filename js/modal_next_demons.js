@@ -12,7 +12,6 @@ const nextDemonDetails = {
         description: "ACU - сложный Insane Demon в процессе верификации.",
         status: "verifying",
         startDate: "2024-01-15",
-        estimatedCompletion: "2024-02-28"
     },
     2: {
         name: "Void Wave",
@@ -24,7 +23,6 @@ const nextDemonDetails = {
         description: "Void Wave - Extreme Demon в процессе верификации.",
         status: "progress",
         startDate: "2024-01-10",
-        estimatedCompletion: "2024-03-15"
     }
 };
 
@@ -50,7 +48,6 @@ window.openNextDemonModal = function(demonId) {
                 <div class="progress-group">
                     <h3>Прогресс</h3>
                     <p><strong>Начало:</strong> ${demon.startDate}</p>
-                    <p><strong>Оценка завершения:</strong> ${demon.estimatedCompletion}</p>
                     
                     <div class="large-progress-container">
                         <div class="large-progress-bar" style="width: ${demon.progress}%"></div>

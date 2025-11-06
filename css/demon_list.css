@@ -44,7 +44,7 @@
 
 .demon-item:hover {
     transform: translateY(-5px);
-    box-shadow: 0 8px 15px rgba(255, 0, 0, 0.3);
+    box-shadow: 0 8px 15px rgba(211, 36, 173, 0.3);
 }
 
 .demon-main-info {

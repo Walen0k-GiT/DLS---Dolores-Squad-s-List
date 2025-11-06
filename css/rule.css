@@ -17,7 +17,7 @@
 
 .rule-card:hover {
     transform: translateY(-5px);
-    box-shadow: 0 8px 15px rgba(255, 0, 0, 0.3);
+    box-shadow: 0 8px 15px rgba(201, 43, 201, 0.3);
 }
 
 .rule-icon {

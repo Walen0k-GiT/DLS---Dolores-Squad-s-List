@@ -48,8 +48,8 @@ const playerDetails = {
         points: 0.1,
         demons: 1,
         extremes: 0,
-        country: "Russia",
-        joinDate: "2023",
+        country: "Kazahstan",
+        joinDate: "2025",
         completedDemons: [
             {name: "The Nightmare", position: 11, difficulty: "easy", points: 0.1, videoId: "i0dlZgqA8ds"}
         ],

@@ -13,7 +13,7 @@ document.addEventListener('DOMContentLoaded', function() {
             videoId: "ZLAAxK_yZLs",
             levelId: "Неизвестно",
             difficulty: "Insane Demon",
-            description: "ACU - сложный Insane Demon в процессе верификации. Уровень отличается техничным геймплеем и требует высокой точности.",
+            description: "ACU - сложный Insane Demon в процессе верификации.",
             status: "verifying"
         },
         { 
@@ -26,6 +26,17 @@ document.addEventListener('DOMContentLoaded', function() {
             difficulty: "Extreme Demon",
             description: "Void Wave - Extreme Demon с уникальной волновой механикой. Находится в активной стадии прохождения.",
             status: "progress"
+        },
+        { 
+            id: 3, 
+            name: "Necropolis", 
+            verifier: "what", 
+            progress: 0,
+            videoId: "",
+            levelId: "Неизвестно",
+            difficulty: "Insane Demon",
+            description: "Necropolis - сложный Insane Demon в процессе верификации.",
+            status: "verifying"
         }
     ];
     
