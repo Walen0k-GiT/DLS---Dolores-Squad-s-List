@@ -1,0 +1,111 @@
+.rules-section {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+    gap: 1.5rem;
+    margin: 2rem 0;
+}
+
+.rule-card {
+    background-color: var(--dark-gray);
+    border-radius: 10px;
+    padding: 1.5rem;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    display: flex;
+    border-left: 5px solid var(--primary-red);
+    transition: all 0.3s;
+}
+
+.rule-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 15px rgba(255, 0, 0, 0.3);
+}
+
+.rule-icon {
+    margin-right: 1rem;
+    font-size: 1.5rem;
+    color: var(--primary-red);
+    display: flex;
+    align-items: flex-start;
+}
+
+.rule-content h3 {
+    color: var(--text-light);
+    margin-bottom: 1rem;
+    font-size: 1.2rem;
+}
+
+.rule-content ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.rule-content li {
+    color: var(--text-gray);
+    margin-bottom: 0.5rem;
+    padding-left: 1.2rem;
+    position: relative;
+}
+
+.rule-content li:before {
+    content: "•";
+    color: var(--primary-red);
+    font-weight: bold;
+    position: absolute;
+    left: 0;
+}
+
+.contact-mods {
+    margin-top: 3rem;
+    padding: 2rem;
+    background-color: var(--dark-gray);
+    border-radius: 10px;
+    border-left: 5px solid var(--primary-red);
+}
+
+.contact-mods h3 {
+    color: var(--text-light);
+    margin-bottom: 1rem;
+    text-align: center;
+}
+
+.contact-mods > p {
+    color: var(--text-gray);
+    text-align: center;
+    margin-bottom: 1.5rem;
+}
+
+.mod-contacts {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+}
+
+.mod-contact {
+    text-align: center;
+    padding: 1rem;
+    background-color: var(--medium-gray);
+    border-radius: 8px;
+    flex: 1;
+    min-width: 200px;
+}
+
+.mod-contact h4 {
+    color: var(--text-light);
+    margin-bottom: 0.5rem;
+}
+
+.mod-contact p {
+    color: var(--primary-red);
+    font-weight: 500;
+}
+
+@media (max-width: 768px) {
+    .rules-section {
+        grid-template-columns: 1fr;
+    }
+    
+    .mod-contacts {
+        flex-direction: column;
+    }
+}

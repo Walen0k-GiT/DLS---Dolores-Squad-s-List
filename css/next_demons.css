@@ -1,0 +1,231 @@
+.section-description {
+    text-align: center;
+    color: var(--text-gray);
+    margin-bottom: 2rem;
+    font-size: 1.1rem;
+}
+
+.next-demons-list {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.next-demon-item {
+    background-color: var(--dark-gray);
+    border-radius: 12px;
+    padding: 1.5rem;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    border-left: 5px solid var(--primary-red);
+    transition: all 0.3s;
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.next-demon-item:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 15px rgba(255, 0, 0, 0.3);
+}
+
+.next-demon-main {
+    flex-grow: 1;
+}
+
+.next-demon-name {
+    font-size: 1.4rem;
+    margin-bottom: 0.5rem;
+    color: var(--text-light);
+}
+
+.next-demon-verifier {
+    color: var(--text-gray);
+    margin-bottom: 0.5rem;
+    font-size: 0.95rem;
+}
+
+.progress-container {
+    width: 200px;
+    background-color: var(--medium-gray);
+    border-radius: 10px;
+    overflow: hidden;
+    margin: 0.5rem 0;
+}
+
+.progress-bar {
+    height: 8px;
+    background: linear-gradient(90deg, var(--primary-red) 0%, var(--light-red) 100%);
+    border-radius: 10px;
+    transition: width 0.5s ease-in-out;
+    position: relative;
+}
+
+.progress-text {
+    text-align: center;
+    color: var(--text-light);
+    font-weight: 600;
+    font-size: 0.9rem;
+    margin-top: 0.3rem;
+}
+
+.next-demon-status {
+    text-align: right;
+    min-width: 120px;
+}
+
+.status-badge {
+    display: inline-block;
+    padding: 0.4rem 0.8rem;
+    border-radius: 20px;
+    font-size: 0.8rem;
+    font-weight: 600;
+    margin-bottom: 0.5rem;
+}
+
+.status-verifying {
+    background-color: #ff8c00;
+    color: white;
+}
+
+.status-progress {
+    background-color: #8a2be2;
+    color: white;
+}
+
+.progress-percent {
+    font-size: 1.3rem;
+    font-weight: 700;
+    color: var(--primary-red);
+}
+
+/* Стили для модального окна */
+.next-demon-details h2 {
+    color: var(--primary-red);
+    margin-bottom: 1rem;
+    border-bottom: 2px solid var(--primary-red);
+    padding-bottom: 0.5rem;
+}
+
+.demon-progress-info {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1.5rem;
+    margin-bottom: 2rem;
+}
+
+.progress-group {
+    padding: 1.5rem;
+    background-color: var(--medium-gray);
+    border-radius: 10px;
+    border-left: 4px solid var(--primary-red);
+}
+
+.progress-group h3 {
+    color: var(--text-light);
+    margin-bottom: 1rem;
+    font-size: 1.1rem;
+}
+
+.progress-group p {
+    color: var(--text-gray);
+    margin-bottom: 0.5rem;
+}
+
+.large-progress-container {
+    width: 100%;
+    background-color: var(--dark-gray);
+    border-radius: 10px;
+    overflow: hidden;
+    margin: 1rem 0;
+}
+
+.large-progress-bar {
+    height: 12px;
+    background: linear-gradient(90deg, var(--primary-red) 0%, var(--light-red) 100%);
+    border-radius: 10px;
+    transition: width 0.5s ease-in-out;
+}
+
+.large-progress-text {
+    text-align: center;
+    color: var(--text-light);
+    font-weight: 600;
+    font-size: 1.1rem;
+    margin: 0.5rem 0;
+}
+
+.progress-video {
+    margin-top: 2rem;
+}
+
+.progress-video h3 {
+    color: var(--text-light);
+    margin-bottom: 1rem;
+}
+
+.video-container {
+    position: relative;
+    width: 100%;
+    padding-bottom: 56.25%; /* 16:9 Aspect Ratio */
+    height: 0;
+    overflow: hidden;
+    border-radius: 8px;
+    background-color: var(--medium-gray);
+}
+
+.video-container iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: none;
+}
+
+.video-actions {
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+    margin-top: 1.5rem;
+    flex-wrap: wrap;
+}
+
+.video-actions .btn {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    padding: 0.8rem 1.5rem;
+}
+
+@media (max-width: 768px) {
+    .next-demon-item {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    
+    .next-demon-status {
+        text-align: left;
+        margin-top: 1rem;
+        width: 100%;
+    }
+    
+    .progress-container {
+        width: 100%;
+    }
+    
+    .demon-progress-info {
+        grid-template-columns: 1fr;
+    }
+    
+    .video-actions {
+        flex-direction: column;
+    }
+    
+    .video-actions .btn {
+        width: 100%;
+        justify-content: center;
+    }
+}

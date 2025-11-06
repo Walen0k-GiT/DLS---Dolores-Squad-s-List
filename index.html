@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DLS - Dolores Squad List</title>
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="logo">
+                <i class="fas fa-fire"></i>
+                <h1>DLS - Dolores Squad List</h1>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="index.html" class="active">Главная</a></li>
+                    <li><a href="demon_list.html">Демон Лист</a></li>
+                    <li><a href="next_demons.html">Next Demons</a></li>
+                    <li><a href="player_list.html">player list</a></li>
+                    <li><a href="rule.html">Правила</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <div class="container">
+            <section class="hero">
+                <h2>Официальный демон-лист DLS</h2>
+                <h1><a href="https://discord.gg/pr6wu5cURm" class="btn">дискорд
+                    <img src="image/among_us_discord.png" alt="among_us_discord">
+                </a></h1>
+                <div class="buttons">
+                    <a href="demon_list.html" class="btn btn-primary">Смотреть демоны</a>
+                    <a href="rule.html" class="btn btn-secondary">Правила</a>
+                </div>
+            </section>
+
+            <section class="stats">
+                <div class="stat-card">
+                    <h3>11</h3>
+                    <p>Level</p>
+                </div>
+                <div class="stat-card">
+                    <h3>4</h3>
+                    <p>Player</p>
+                </div>
+                <div class="stat-card">
+                    <h3>0</h3>
+                    <p>Extreme Demons</p>
+                </div>
+            </section>
+
+            <section class="featured-demons">
+                <h2>Недавно пройденные</h2>
+                <div class="demon-cards">
+                    <div class="demon-card" data-id="1">
+                        <div class="difficulty insane">Insane</div>
+                        <h3>Beetle</h3>
+                        <p>Cirtrax</p>
+                        <div class="position"></div>
+                        <div class="scores">50.1 очков</div>
+                    </div>
+                    <div class="demon-card" data-id="2">
+                        <div class="difficulty insane">Insane</div>
+                        <h3>Acropolis</h3>
+                        <p>Zobros</p>
+                        <div class="position"></div>
+                        <div class="scores">37.2 очков</div>
+                    </div>
+                    <div class="demon-card" data-id="3">
+                        <div class="difficulty insane">Insane</div>
+                        <h3>Crazy II</h3>
+                        <p>DavJT</p>
+                        <div class="position"></div>
+                        <div class="scores">30.4 очков</div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="add-record">
+                <h2>Добавить рекорд</h2>
+                <div class="form-container">
+                    <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSfOzhKMv4LeejlFboE4QJ5JsWvi6uQ8zb0QYwk-BChGP6We1w/viewform?usp=publish-editor" width="100%" height="800" frameborder="0" marginheight="0" marginwidth="0">Загрузка…</iframe>
+                </div>
+            </section>
+        </div>
+    </main>
+
+    <!-- Модальное окно для демонов -->
+    <div id="demon-modal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <div id="demon-modal-content">
+                <!-- Контент будет загружен через JavaScript -->
+            </div>
+        </div>
+    </div>
+
+<footer>
+    <div class="container">
+        <p>&copy; 2025 DLS - Dolores Squad List. Все права защищены.</p>
+        <div class="footer-links">
+            <a href="README.md">Документация</a>
+            <a href="LICENSE">Лицензия MIT</a>
+            <a href="https://discord.gg/pr6wu5cURm">дискорд</a>
+        </div>
+    </div>
+</footer>
+
+    <script src="js/modal.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>

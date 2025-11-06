@@ -1,0 +1,226 @@
+.filters {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 2rem;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+}
+
+.filter-btn {
+    padding: 0.5rem 1rem;
+    border: 2px solid var(--primary-red);
+    background-color: var(--dark-gray);
+    color: var(--text-light);
+    border-radius: 20px;
+    cursor: pointer;
+    font-weight: 600;
+    transition: all 0.3s;
+}
+
+.filter-btn:hover, .filter-btn.active {
+    background-color: var(--primary-red);
+    color: var(--text-light);
+}
+
+.demon-list {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.demon-item {
+    background-color: var(--dark-gray);
+    border-radius: 10px;
+    padding: 1.5rem;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    position: relative;
+    border-left: 5px solid var(--primary-red);
+    transition: all 0.3s;
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.demon-item:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 15px rgba(255, 0, 0, 0.3);
+}
+
+.demon-main-info {
+    flex-grow: 1;
+}
+
+.demon-position {
+    font-size: 1.8rem;
+    font-weight: 700;
+    color: var(--primary-red);
+    width: 80px;
+    text-align: center;
+}
+
+.demon-name {
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+    color: var(--text-light);
+}
+
+.demon-creator {
+    color: var(--text-gray);
+    margin-bottom: 0.5rem;
+}
+
+.demon-id {
+    color: var(--text-gray);
+    font-size: 0.9rem;
+    margin-bottom: 0.5rem;
+}
+
+.demon-difficulty {
+    display: inline-block;
+    padding: 0.3rem 0.8rem;
+    border-radius: 20px;
+    font-size: 0.8rem;
+    font-weight: 600;
+    margin-bottom: 0.5rem;
+}
+
+.difficulty-insane {
+    background-color: #8a2be2;
+    color: white;
+}
+
+.difficulty-hard {
+    background-color: #ff8c00;
+    color: white;
+}
+
+.difficulty-medium {
+    background-color: #ffd700;
+    color: black;
+}
+
+.difficulty-easy {
+    background-color: #32cd32;
+    color: white;
+}
+
+.demon-side-info {
+    text-align: right;
+}
+
+.demon-scores {
+    font-size: 1.3rem;
+    font-weight: 700;
+    color: var(--primary-red);
+    margin-bottom: 0.5rem;
+}
+
+.demon-beted {
+    color: var(--text-gray);
+    font-size: 0.9rem;
+}
+
+/* Детали демона в модальном окне */
+.demon-details h2 {
+    color: var(--primary-red);
+    margin-bottom: 1rem;
+    border-bottom: 2px solid var(--primary-red);
+    padding-bottom: 0.5rem;
+}
+
+.demon-info {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+    margin-bottom: 1.5rem;
+}
+
+.info-group h3 {
+    color: var(--text-light);
+    margin-bottom: 0.5rem;
+    font-size: 1.1rem;
+}
+
+.info-group p {
+    color: var(--text-gray);
+}
+
+.demon-scores-large {
+    text-align: center;
+    margin: 1.5rem 0;
+    padding: 1.5rem;
+    background: linear-gradient(135deg, var(--primary-red) 0%, var(--dark-red) 100%);
+    border-radius: 10px;
+}
+
+.demon-scores-large h3 {
+    color: var(--text-light);
+    margin-bottom: 0.5rem;
+    font-size: 1.2rem;
+}
+
+.demon-scores-large .scores-value {
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: var(--text-light);
+}
+
+.demon-description {
+    margin-bottom: 1.5rem;
+}
+
+.demon-description h3 {
+    color: var(--text-light);
+    margin-bottom: 0.5rem;
+}
+
+.demon-description p {
+    color: var(--text-gray);
+    line-height: 1.6;
+}
+
+.demon-video {
+    margin-top: 1.5rem;
+}
+
+.demon-video h3 {
+    color: var(--text-light);
+    margin-bottom: 1rem;
+}
+
+.video-container {
+    position: relative;
+    width: 100%;
+    padding-bottom: 56.25%; /* 16:9 Aspect Ratio */
+    height: 0;
+    overflow: hidden;
+    border-radius: 8px;
+    background-color: var(--medium-gray);
+}
+
+.video-container iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: none;
+}
+
+@media (max-width: 768px) {
+    .demon-item {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    
+    .demon-side-info {
+        text-align: left;
+        margin-top: 1rem;
+        width: 100%;
+    }
+    
+    .demon-info {
+        grid-template-columns: 1fr;
+    }
+}

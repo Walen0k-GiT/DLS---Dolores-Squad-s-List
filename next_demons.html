@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Next Demons - DLS</title>
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/next_demons.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="logo">
+                <i class="fas fa-fire"></i>
+                <h1>DLS - Dolores Squad List</h1>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Главная</a></li>
+                    <li><a href="demon_list.html">Демон Лист</a></li>
+                    <li><a href="player_list.html">Игроки</a></li>
+                    <li><a href="next_demons.html" class="active">Next Demons</a></li>
+                    <li><a href="rule.html">Правила</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <div class="container">
+            <h2>Next Demons</h2>
+            <p class="section-description">Демоны в процессе верификации. Следите за прогрессом!</p>
+            
+            <div class="next-demons-list">
+                <!-- Демоны будут добавлены через JavaScript -->
+            </div>
+        </div>
+    </main>
+
+    <!-- Модальное окно для прогресса демонов -->
+    <div id="next-demon-modal" class="modal">
+        <div class="modal-content">
+            <span class="close" onclick="closeNextDemonModal()">&times;</span>
+            <div id="next-demon-modal-content">
+                <!-- Контент будет загружен через JavaScript -->
+            </div>
+        </div>
+    </div>
+
+<footer>
+    <div class="container">
+        <p>&copy; 2025 DLS - Dolores Squad List. Все права защищены.</p>
+        <div class="footer-links">
+            <a href="README.md">Документация</a>
+            <a href="LICENSE">Лицензия MIT</a>
+            <a href="https://discord.gg/pr6wu5cURm">дискорд</a>
+        </div>
+    </div>
+</footer>
+
+    <script src="js/modal_next_demons.js"></script>
+    <script src="js/next_demons.js"></script>
+</body>
+</html>
