@@ -23,6 +23,16 @@ const nextDemonDetails = {
         description: "Void Wave - Extreme Demon в процессе верификации.",
         status: "progress",
         startDate: "2024-01-10",
+    },
+    3: {name: "Windy Landscape",
+        verifier: "Alien Muha", 
+        progress: 97,
+        videoId: "uU4Hng2xuXY",
+        levelId: "4957691",
+        difficulty: "Insane Demon",
+        description: "Windy Landscape - Insane Demon в процессе верификации.",
+        status: "progress",
+        startDate: "2025-11-06",
     }
 };
 

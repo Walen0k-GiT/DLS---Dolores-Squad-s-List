@@ -37,7 +37,20 @@ document.addEventListener('DOMContentLoaded', function() {
             difficulty: "Insane Demon",
             description: "Necropolis - сложный Insane Demon в процессе верификации.",
             status: "verifying"
-        }
+        },
+        {
+            id: 4,
+        name: "Windy Landscape",
+        verifier: "Alien Muha", 
+        progress: 97,
+        videoId: "uU4Hng2xuXY",
+        levelId: "4957691",
+        difficulty: "Insane Demon",
+        description: "Windy Landscape - Insane Demon в процессе верификации.",
+        status: "progress",
+        startDate: "2025-11-06",
+    }
+        
     ];
     
     // Функция для отображения демонов
